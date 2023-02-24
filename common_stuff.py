@@ -1,4 +1,4 @@
-#!/home/mdi0316/anaconda3/bin/python
+..#!/home/mdi0316/anaconda3/bin/python
 
 ### common input start
 import os, sys, re
@@ -19,11 +19,10 @@ from numpy import linalg as LA
 import scipy.constants as const
 from mpl_toolkits.mplot3d import axes3d
 
-
-desktop_dir = '/home/mdi0316/Desktop'
-data_dir = '/home/mdi0316/DATA'
-codes_dir = '/home/mdi0316/CODES'
-work_dir = '/home/mdi0316/WORK'
+desktop_dir = Path( 'C:', '/Users', 'MDI0316', 'Desktop' )
+data_dir = Path( 'C:', '/Users', 'MDI0316', 'Desktop', 'DATA' )
+codes_dir = Path( 'C:', '/Users', 'MDI0316', 'Desktop', 'CODES' )
+work_dir = Path( 'C:', '/Users', 'MDI0316', 'OneDrive - Toyota Motor Europe', 'WORK' )
 src_dir = Path( work_dir, 'src' )
 
 import datetime
