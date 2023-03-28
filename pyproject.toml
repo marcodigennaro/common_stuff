@@ -1,0 +1,13 @@
+[project]
+name = "common-stuff"
+description = "common functions to be used for data analysis"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.7"
+author = [
+    { name = "Marco Di Gennaro", email = "m.di.gennaro@outlook.com" }
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

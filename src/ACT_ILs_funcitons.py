@@ -34,7 +34,7 @@ reduced_funct_list = [ 'PBE0', 'B3LYP', 'M11' , 'wB97x-D' ]
 def get_dimer_df( dime_label, basis, funct ):
 
     dft_ene_csv = Path( dime_data_dir, dime_label, '{}_{}_scan_dft_ene.csv'.format(basis, funct) )
-    dft_eda_csv = Path( dime_data_dir, dime_label, '{}_{}_scan_dft_eda.csv'.format(basis, funct) )
+    #dft_eda_csv = Path( dime_data_dir, dime_label, '{}_{}_scan_dft_eda.csv'.format(basis, funct) )
     mp2_ene_csv = Path( dime_data_dir, dime_label, '{}_scan_mp2_ene.csv'.format(basis) )
     #mp2_eda_csv = Path( dime_data_dir, dime_label, '{}_scan_mp2_eda.csv'.format(basis) )
 

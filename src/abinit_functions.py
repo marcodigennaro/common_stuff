@@ -43,7 +43,7 @@ def plot_edos( dos_file ):
     ax.set_ylabel('DOS')
     ax.set_xlabel('energy')
     plt.show()
-    
+
 proj_work_dir, proj_data_dir, jupy_dir, figs_dir = project_dirs( '12_DEC', 'CH4_eDOS' )
 dos_file = os.path.join(proj_data_dir, 'xo_DOS')
 
