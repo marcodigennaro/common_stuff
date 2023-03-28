@@ -1,10 +1,10 @@
 [project]
-name = "common-stuff"
+name = "common_stuff"
 description = "common functions to be used for data analysis"
 version = "0.0.1"
 readme = "README.md"
 requires-python = ">=3.7"
-author = [
+authors = [
     { name = "Marco Di Gennaro", email = "m.di.gennaro@outlook.com" }
 ]
 
