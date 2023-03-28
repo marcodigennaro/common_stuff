@@ -6,7 +6,7 @@ Created on Fri Jun 11 15:45:43 2021
 """
 import os, sys
 from pathlib import Path
-from common_stuff import src_dir
+from common_functions import src_dir
 
 proj_name = 'MOFS_QML'
 tml_runs_dir = Path( 'C:', '/Users', 'MDI0316', 'Desktop', 'Turbomol_runs',  proj_name)

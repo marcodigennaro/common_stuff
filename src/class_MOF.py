@@ -4,7 +4,7 @@ Created on Mon Jun 14 09:53:56 2021
 
 @author: MDI0316
 """
-from common_stuff import project_dirs
+from common_functions import project_dirs
 from MOFS_QML import tml_runs_dir, ref_tml_runs_dir, qml_tml_runs_dir, proj_name, read_tmol_dft_ene, read_tmol_mp2_ene, coord_2_xyz
 import os
 

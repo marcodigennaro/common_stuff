@@ -1,6 +1,6 @@
 #!/home/mdi0316/anaconda3/bin/python
 
-from common_stuff import *
+from common_functions import *
 
 work_label = 'MOFS_RGI2972'
 month_label = '03_MAR'

@@ -1,4 +1,3 @@
-..#!/home/mdi0316/anaconda3/bin/python
 
 ### common input start
 import os, sys, re

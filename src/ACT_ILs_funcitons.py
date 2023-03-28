@@ -1,6 +1,6 @@
 #!/home/mdi0316/anaconda3/bin/python
 
-from common_stuff import *
+from common_functions import *
 
 act_data_dir  = Path( data_dir, 'ACT_ILs' )
 mono_data_dir = Path( act_data_dir, 'MONOMERS' )

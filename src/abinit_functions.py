@@ -5,7 +5,7 @@ Created on Thu Dec  3 11:47:06 2020
 @author: MDI0316
 """
 
-from common_stuff import *
+from common_functions import *
 
 post_processing_dir = Path( codes_dir, 'abinit-9.2.2', 'scripts', 'post_processing' )
 
