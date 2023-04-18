@@ -1,15 +1,23 @@
-[tool.poetry]
-name = "mylib"
-version = "0.1.0"
-description = ""
-authors = ["marcodigennaro <m.di.gennaro@outlook.com>"]
-readme = "README.md"
-
-
-[tool.poetry.dependencies]
-python = "^3.8"
-
-
 [build-system]
-requires = ["poetry-core", "numpy", "pandas", "matplotlib"]
-build-backend = "poetry.core.masonry.api"
+requires = ["numpy"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "--cov=mylib"
+testpaths = [
+    "tests",
+]
+
+[tool.mypy]
+mypy_path = "src"
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
