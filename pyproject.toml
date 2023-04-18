@@ -1,13 +1,15 @@
-[project]
-name = "common_stuff"
-description = "common functions to be used for data analysis"
-version = "0.0.1"
+[tool.poetry]
+name = "mylib"
+version = "0.1.0"
+description = ""
+authors = ["marcodigennaro <m.di.gennaro@outlook.com>"]
 readme = "README.md"
-requires-python = ">=3.7"
-authors = [
-    { name = "Marco Di Gennaro", email = "m.di.gennaro@outlook.com" }
-]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["poetry-core", "numpy", "pandas", "matplotlib"]
+build-backend = "poetry.core.masonry.api"
