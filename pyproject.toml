@@ -1,9 +1,8 @@
 [build-system]
-requires = ["numpy"]
+requires = ["setuptools>=42.0", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-addopts = "--cov=mylib"
 testpaths = [
     "tests",
 ]

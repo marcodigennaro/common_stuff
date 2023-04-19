@@ -1,0 +1,4 @@
+action: .tox, msg: getenv
+cwd: /Users/marcodigennaro/WORK/common_stuff/.tox
+cmd: /Users/marcodigennaro/WORK/common_stuff/venv/bin/python -m virtualenv --no-download --python /Users/marcodigennaro/WORK/common_stuff/venv/bin/python .tox
+KeyboardInterrupt: 

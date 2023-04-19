@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: common-stuff
+Version: 0.0.1
+Summary: common functions to be used for data analysis
+Home-page: https://mdigennaro.space
+Author: Marco Di Gennaro
+Author-email: Marco Di Gennaro <m.di.gennaro@outlook.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# common_stuff
+
+This package contains a set of common functions to be deployed in data analysis and materials informatics projects.
