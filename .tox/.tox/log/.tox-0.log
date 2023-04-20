@@ -1,4 +1,8 @@
 action: .tox, msg: getenv
 cwd: /Users/marcodigennaro/WORK/common_stuff/.tox
-cmd: /Users/marcodigennaro/WORK/common_stuff/venv/bin/python -m virtualenv --no-download --python /Users/marcodigennaro/WORK/common_stuff/venv/bin/python .tox
-KeyboardInterrupt: 
+cmd: /Users/marcodigennaro/WORK/common_stuff/myenv3.11/bin/python3.11 -m virtualenv --no-download --python /Users/marcodigennaro/WORK/common_stuff/myenv3.11/bin/python3.11 .tox
+created virtual environment CPython3.11.2.final.0-64 in 872ms
+  creator CPython3Posix(dest=/Users/marcodigennaro/WORK/common_stuff/.tox/.tox, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/marcodigennaro/Library/Application Support/virtualenv)
+    added seed packages: pip==23.1, setuptools==67.6.1, wheel==0.40.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator

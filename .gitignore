@@ -7,3 +7,5 @@ build/
 dist/
 myenv3.11/
 venv3.8/
+.tox/
+.idea/

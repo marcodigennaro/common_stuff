@@ -9,18 +9,18 @@ import numpy as np
 from typing import Any
 
 
-def morse(r: float, e: float = 1., a: float = 1., r_eq: float = 1.) -> Any:
+def morse(r: float, D: float = 1., a: float = 1., r_eq: float = 1.) -> Any:
     """
     Morse potential
     Args:
         r: radius
-        e: epsilon value
+        D: well depth
         a: alpha
         r_eq: equilibrium distance
     Returns:
         Value of Morse potential at given distance
     """
-    return -e * (1 - (1 - np.exp(-a * (r - r_eq))) ** 2)
+    return D * (1 - np.exp(-a * (r - r_eq))) ** 2
 
 
 def lennard_jones(r: float, e: float = 1., s: float = 1.) -> Any:
