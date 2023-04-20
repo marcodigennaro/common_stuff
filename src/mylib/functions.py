@@ -1,21 +1,23 @@
 import numpy as np
-from typing import List, Union
+from typing import List, Any, Union
 
-from numpy import ndarray
+Vector = List[float]
 
 
-def unit_vector(my_array: List[float]) -> List[float]:
+def unit_vector(my_array: Union[Vector, Any]) -> Vector:
     """
     Returns the unit vector of the vector.
-    - Input: a N-dim vector
-    - Output: scalar
+    - Input: my_array is a N-dim vector
+    - Output: normalized vector from my_array
     - Example:
-        unit_vector([1,1,1]) = 1.7320508075688772
+        unit_vector([1,1,1]) = [ 0.5773, 0.5773, 0.5773 ]
     """
-    norm: Union[float, ndarray] = np.linalg.norm(my_array)
-    return my_array/norm
+    norm = float(np.linalg.norm(my_array))
+    norm_array = [elem/norm for elem in my_array]
+    return norm_array
 
-def angle_between(v1: np.ndarray, v2: np.ndarray) -> float:
+
+def angle_between(v1: Vector, v2: Vector) -> Any:
     """
     Returns the angle in radians between vectors 'v1' and 'v2':
     - Inputs: two vectors
